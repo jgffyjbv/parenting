@@ -238,3 +238,7 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spa
 .foot__brand{display:inline-block;line-height:0}
 .foot__brand img{height:80px;width:auto;border-radius:12px;box-shadow:0 8px 22px rgba(0,0,0,.28)}
 @media(max-width:920px){.hero__logo{max-width:260px}}
+
+/* header logo (client's real logo, sized for the nav) */
+.brand__logo{height:48px;width:auto;display:block;border-radius:7px;box-shadow:0 2px 6px rgba(75,45,30,.15)}
+@media(max-width:620px){.brand__logo{height:42px}.brand__txt{font-size:1.02rem}}
