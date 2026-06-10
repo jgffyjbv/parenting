@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="15" fill="#C76B4E"/>
-  <circle cx="32" cy="33" r="20" fill="none" stroke="#FCF7F1" stroke-width="4.6" stroke-linecap="round" stroke-dasharray="108 18" transform="rotate(-108 32 33)"/>
-  <path transform="translate(18.6 20.2) scale(1.12)" d="M12 21s-8-4.9-8-11a5 5 0 0 1 8-3.5A5 5 0 0 1 20 10c0 6.1-8 11-8 11Z" fill="#FCF7F1"/>
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0.25" y2="1"><stop offset="0" stop-color="#6A555E"/><stop offset="1" stop-color="#CB7832"/></linearGradient></defs>
+  <rect width="64" height="64" rx="14" fill="url(#g)"/>
+  <text x="32" y="45" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="33" fill="#FFFFFF" letter-spacing="-1.5">RF</text>
 </svg>

@@ -231,3 +231,10 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spa
 }
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 :focus-visible{outline:3px solid var(--clay);outline-offset:2px;border-radius:6px}
+
+/* ===== real brand logo (Relationship First Approach) ===== */
+.hero__logo{max-width:330px;margin:0 auto;border-radius:20px;overflow:hidden;box-shadow:var(--sh-lg);border:6px solid #fff}
+.hero__logo img{width:100%;height:auto;display:block}
+.foot__brand{display:inline-block;line-height:0}
+.foot__brand img{height:80px;width:auto;border-radius:12px;box-shadow:0 8px 22px rgba(0,0,0,.28)}
+@media(max-width:920px){.hero__logo{max-width:260px}}
