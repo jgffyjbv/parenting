@@ -44,8 +44,8 @@ h1,h2,h3,h4{font-family:var(--serif);font-weight:500;line-height:1.12;letter-spa
 .nav.scrolled{box-shadow:0 4px 20px rgba(120,80,50,.08);border-bottom-color:var(--line)}
 .nav .in{width:100%;display:flex;align-items:center;justify-content:space-between;gap:18px}
 .brand{display:flex;align-items:center;gap:10px}
-.brand__mark{width:36px;height:36px;flex:0 0 auto;border-radius:10px;background:var(--clay);display:grid;place-items:center}
-.brand__mark svg{width:20px;height:20px;color:#fff}
+.brand__mark{width:44px;height:44px;flex:0 0 auto;display:grid;place-items:center}
+.brand__mark svg{width:44px;height:44px;display:block}
 .brand__txt{font-family:var(--serif);font-weight:600;font-size:1.16rem;letter-spacing:-.02em;color:var(--ink);line-height:1.05}
 .brand__txt small{display:block;font-family:var(--sans);font-weight:600;font-size:.62rem;letter-spacing:.18em;text-transform:uppercase;color:var(--muted)}
 .nav__links{display:flex;align-items:center;gap:2px;list-style:none}
